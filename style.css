@@ -1,0 +1,52 @@
+/* Element selector - styles all h1 elements */
+h1 {
+  color: #2c3e50;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Class selector - styles elements with class="content-section" */
+.content-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Class selector - styles elements with class="highlight" */
+.highlight {
+  background-color: #fffacd;
+  padding: 10px;
+  border-left: 4px solid #f1c40f;
+}
+
+/* ID selector - styles the element with id="featured-image" */
+#featured-image {
+  border: 3px solid #3498db;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* ID selector - styles the element with id="main-header" */
+#main-header {
+  background-color: #3498db;
+  color: white;
+  padding: 30px 0;
+  margin-bottom: 40px;
+}
+
+/* Element selector - styles the footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
